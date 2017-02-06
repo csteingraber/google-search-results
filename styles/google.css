@@ -54,14 +54,22 @@ table {
 	margin-right: 13px;
 }
 
+.alignment-container {
+	flex-grow: 1;
+	display: flex;
+	align-items: center;
+}
+
 .search-area {
 	width: 632px;
 	height: 44px;
-	border: 1px inset;
+	border: 0;
+	margin-right: auto;
 	background-color: white;
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
+	box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16);
 }
 
 input {
@@ -75,4 +83,55 @@ input {
 
 :focus {
 	outline: white none 0;
+}
+
+.apps {
+	margin: 0 20px;
+}
+
+button {
+	background-color: #4285f4;
+	border: 0px;
+	border-radius: 2px;
+	font-family: arial;
+	font-size: 13px;
+	width: 70px;
+	height: 30px;
+	margin-right: 20px;
+	color: white;
+}
+
+.navbar {
+	width: 632px;
+	height: 44px;
+	margin-left: 150px;
+	display: flex;
+	align-items: center;
+}
+
+.navbar a {
+	text-decoration: none;
+	margin: 0 16px;
+	color: #777;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 13px;
+}
+
+.navbar a:hover {
+	color: #222;
+}
+
+.current {
+	color: #4285f4;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 13px;
+	padding-top: 15.5px;
+	padding-bottom: 12.5px;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-bottom: 3px solid #4285f4;
+}
+
+.navbar .cutoff {
+	margin-right: auto;
 }
