@@ -109,8 +109,11 @@ button {
 	align-items: center;
 }
 
-.navbar a {
+a {
 	text-decoration: none;
+}
+	
+.navbar a {
 	margin: 0 16px;
 	color: #777;
 	font-family: 'Roboto', arial, sans-serif;
@@ -134,4 +137,47 @@ button {
 
 .navbar .cutoff {
 	margin-right: auto;
+}
+
+main h1 {
+	width: 600px;
+	height: 43px;
+	line-height: 43px;
+	font-size: small;
+	margin-left: 166px;
+	margin-bottom: 21.5px;
+	color: #808080;
+}
+
+main div {
+	width: 600px;
+	height: 75px;
+	margin-bottom: 26px;
+	margin-left: 166px;
+}
+
+main h2 {
+	font-size: 18px;
+	font-weight: normal;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+main a:hover {
+	text-decoration: underline;
+}
+
+.url {
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: 14px;
+	color: #006621;
+	font-style: normal;
+	font-weight: normal;
+}
+
+.description {
+	line-height: 1.4;
+	color: #545454;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: small;
+	font-weight: normal;
 }
