@@ -181,3 +181,48 @@ main a:hover {
 	font-size: small;
 	font-weight: normal;
 }
+
+main .bottom {
+	height: auto;
+	margin-top: 21.5px;
+
+}
+
+.bottom h2 {
+	margin-bottom: 21.5px;
+}
+
+main .flex-container {
+	height: auto;
+	margin-left: 0;
+	display: flex;
+}
+
+ul {
+	width: 178.406px;
+	height: 104px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul a {
+	font-weight: bold;
+	font-size: 14px;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+td {
+	width: 20px;
+	height: 55px;
+}
+
+td span {
+	background: url("https://www.google.com/images/nav_logo242_hr.png") no-repeat;
+	background-position: -24px 0;
+	background-size: 167px;
+	width: 28px;
+	display: block;
+	height: 40px;
+	margin-bottom: 15px;
+}
