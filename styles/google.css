@@ -281,3 +281,44 @@ ol a {
 	font-family: 'Roboto', arial, sans-serif;
 	font-size: small;
 }
+
+.footer {
+	background-color: #fafafa;
+	height: 65px;
+	padding-top: 18px;
+}
+
+.footer p {
+	margin-left: 166px;
+	height: 25px;
+	color: #aaa;
+	font-family: 'Roboto', arial, sans-serif;
+	font-size: small;
+	white-space: nowrap;
+}
+
+.footer a {
+	color: #777;
+	font-size: small;
+	font-family: 'Roboto', arial, sans-serif;
+}
+
+.footer a:hover {
+	color: #333;
+}
+
+.footer div {
+	height: 40px;
+	margin-left: 166px;
+	display: flex;
+	align-items: center;
+
+}
+
+.footer div a {
+	flex: none;
+}
+
+.footer div a:not(:first-child) {
+	padding-left: 27px; 
+}
